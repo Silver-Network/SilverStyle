@@ -1,0 +1,72 @@
+/* app.css for Silver Network
+(c) Silver Team 2022 */
+
+body{
+    background-color: #131314;
+    font-family: "Varela Round", sans-serif;
+}
+h1, p, i, h2, h3, h4, b{
+    color: white;
+}
+.logo-text{
+    background: linear-gradient(to bottom right, #1fa39d, #2e0f61);
+    background-clip: border-box;
+    background-clip: text;
+    color: transparent;
+    margin-left: 20px;
+}
+.logo-href{
+    text-decoration: none;
+}
+.logo-container{
+    display: inline-block;
+    width: 300px;
+}
+.logo-container img{
+    float: left;
+}
+.logo-container h1{
+    margin-top: 10;
+}
+.icons-container{
+    margin-top: 10;
+    float: right;
+}
+.icons-container .icon{
+    transition-duration: 0.2s;
+}
+.icons-container .icon:hover{
+    border-radius: 2px;
+    background-color: rgba(255, 255, 255, 0.25);
+    transition-duration: 0.2s;
+    opacity: 50;
+}
+.main .centered-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500;
+}
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40;
+    width: 80;
+    background-color: #2e0f61;
+    background-image: linear-gradient(to bottom right, #1fa39d, rgba(255, 255, 255, 0));
+    text-decoration: none;
+    color: white;
+    border-radius: 2px;
+    transition-duration: 0.2s;
+}
+.button:hover {
+    height: 45;
+    width: 90;
+    background-color: #1fa39d;
+    border-radius: 4px;
+    background-image: linear-gradient(to bottom right, #2e0f61, rgba(255, 255, 255, 0));
+    transition-duration: 0.5s;
+}
