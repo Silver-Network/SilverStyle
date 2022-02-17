@@ -61,6 +61,21 @@ h1, p, i, h2, h3, h4, b{
     color: white;
     border-radius: 2px;
     transition-duration: 0.2s;
+    /* quick n' dirty fix for an issue using <input type="submit"> */
+    border-width:0px;
+    border:none;
+}
+.input{
+    border-radius: 2px;
+    height: 30px;
+    border: none;
+    display: block;
+}
+.input + .input {
+    margin-top: 10px;
+}
+.input + .button {
+    margin-top: 10px;
 }
 .button:hover {
     height: 45;
@@ -69,4 +84,16 @@ h1, p, i, h2, h3, h4, b{
     border-radius: 4px;
     background-image: linear-gradient(to bottom right, #2e0f61, rgba(255, 255, 255, 0));
     transition-duration: 0.5s;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400;
+    width: 500;
+    box-shadow: 0 0 5px #000;
+}
+.error {
+    color: red;
 }
