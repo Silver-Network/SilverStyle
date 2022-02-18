@@ -10,7 +10,9 @@ h1, p, i, h2, h3, h4, b{
 }
 .logo-text{
     background: linear-gradient(to bottom right, #1fa39d, #2e0f61);
-    background-clip: border-box;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -op-background-clip: text;
     background-clip: text;
     color: transparent;
     margin-left: 20px;
